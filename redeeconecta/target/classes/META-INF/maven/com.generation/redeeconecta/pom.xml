@@ -46,12 +46,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
         
+		
         <!-- SPRING BOOT STARTER SECURITY-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -77,6 +79,19 @@
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
 		</dependency>
+		
+		<!-- Dependência para Geração do Swagger -->
+	<dependency>
+		<groupId>org.springdoc</groupId>
+		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		<version>2.0.2</version>
+	 </dependency>
+	 
+	 <!-- Dependência do Banco de dados PostgreSQL -->
+      <dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+      </dependency> 
         
 	</dependencies>
 
